@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Cal Sans", sans-serif;
+}
+img{
+    width: 100px;
+}
+.img1{
+    width: 400px;
+}
+.container{
+    max-width: 50%;
+    max-height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    align-items: 0 auto;
+    align-items: center;
+    
+    margin-top: 150px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.content > h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+   
+}
+.inputs > input{
+    padding: 10px;
+    border: none;
+}
+.inputs > .button-blue{
+    margin-top: 20px;
+    background-color: rgba(97, 232, 232, 0.445);
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.inputs > .button-ou{
+    margin-bottom:0px;
+    background-color: rgba(220, 231, 231, 0.215);
+    color: rgba(0, 0, 0, 0.31);
+    font-weight: bolder;
+    font-size: 14px;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    flex-direction:column 
+}
+.facebook{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    border: none;
+    justify-content: space-around;
+}
+.facebook > img{
+    width: 50px;
+    margin-right:14px; 
+}
+.facebook > a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(28, 28, 99, 0.757);
+}
+.password{
+    margin-bottom:30px ;
+    margin-left:10px;
+    text-align: center;
+    width: 100%; 
+}
+.password > .forget{
+    font-size: 14px;
+    border: none;
+    text-decoration: none;
+}
+.password > .forget>a{
+    text-decoration: none;
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+}
+.span1{
+    
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.span1 > a{
+    color: rgba(93, 140, 233, 0.823);   
+    text-decoration: none;
+}
+
+.span2{
+    text-align: center;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.648);
+    font-weight: 100;
+}
+.apps-icons > img{
+    width: 100px;
+}
+.apps-icons{
+    margin-top:10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
