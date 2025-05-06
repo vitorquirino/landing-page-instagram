@@ -31,7 +31,10 @@ img{
     text-align: center;
     margin-bottom: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 45px;
+    
+}
+.content > h1 > img{
+    width: 150px;
 }
 .inputs{
     display: flex;
