@@ -126,3 +126,25 @@ img{
     align-items: center;
     justify-content: center;
 }
+
+.footer{
+    text-align: center;
+    margin: 50px auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.footer > ul {
+    display: flex;
+    list-style-type: none;
+    color: #8e8e8e;
+    font-size: 12px;
+}
+.footer > ul > li {
+   margin-right: 10px;
+}
+#copyright{
+    text-align: center;
+    color: #8e8e8e;
+    font-size: 14px;
+}
